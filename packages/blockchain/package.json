@@ -1,0 +1,25 @@
+{
+  "name": "rune-onchain",
+  "version": "1.0.0",
+  "description": "",
+  "types": "./index.ts",
+  "main": "./index.js",
+  "scripts": {
+    "compile": "npx hardhat compile",
+    "hardhat:clean": "npx hardhat clean",
+    "test": "npx hardhat test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@layerzerolabs/solidity-examples": "^0.0.13",
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "@openzeppelin/contracts-upgradeable": "^4.9.2",
+    "@openzeppelin/hardhat-upgrades": "^2.0.1",
+    "hardhat": "^2.17.0"
+  },
+  "dependencies": {
+    "@openzeppelin/merkle-tree": "^1.0.5"
+  }
+}
